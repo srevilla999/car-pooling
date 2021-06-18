@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+planner:
+  stream:
+    consumers: 2
+    thread-pool: 10
+    poll-millis: 1
